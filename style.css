@@ -8,7 +8,7 @@
 .jumbotron {
     height: 650px;
     background-image: url(
-        blackred/jumbotron.png
+        https://raw.githubusercontent.com/BlackRed30/blackred/master/jumbotron.png
       );
     background-size: cover;
     background-attachment: fixed;

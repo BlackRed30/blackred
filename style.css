@@ -1,0 +1,254 @@
+/* yang berlaku di semua subbab yang ada di portfolio dan done-so-far*/
+.subbab {
+    color: #912f2f;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    height: 650px;
+    background-image: url(img/jumbotron.png);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    font-family: Timmana;
+}
+
+.jumbotron .display-4 {
+    margin-top: 190px;
+    font-size: 26px;
+    font-family: Roboto Condensed;
+}
+
+.jumbotron .myname {
+    margin-top: 10px;
+    font-size: 60px;
+}
+
+.jumbotron .sub-myname {
+    margin-top: 75px;
+    font-size: 20px;
+    font-family: Roboto Condensed;
+}
+
+/* Introduction */
+
+.introduction {
+    height: 450px;
+    margin-top: -35px;
+    background-color: aliceblue;
+}
+
+.introduction h1,
+.introduction p {
+    margin-right: 20px;
+}
+
+.introduction h1 {
+    text-align: center;
+    font-size: 20px;
+    font-family: Sarabun;
+    margin-top: 25px;
+}
+
+.introduction p {
+    font-size: 10px;
+    font-family: Roboto;
+    color: #3b3838;
+    margin-top: 15px;
+}
+
+.introduction .Judul {
+    font-size: 25px;
+}
+
+.introduction .kotak {
+    border: 2px solid #eaeaea;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.introduction span {
+    color: salmon;
+    font-weight: bold;
+}
+
+.media-body {
+    margin-bottom: 25px;
+}
+
+/* what i have done so far */
+
+.done-so-far {
+    padding-top: 50px;
+    height: 980px;
+}
+
+.judul-subbab {
+    text-align: center;
+    font-size: 25px;
+    font-family: Sarabun;
+}
+
+.done-so-far p {
+    font-size: 12px;
+}
+
+.done-so-far h5 {
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.done-so-far .image-size {
+    height: 200px;
+    width: 200px;
+}
+
+/* portfolio */
+
+.portfolio {
+    padding-top: 50px;
+    background-color: #cecece;
+    height: 980px;
+}
+
+.portfolio p {
+    font-size: 12px;
+}
+
+.portfolio h5 {
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.portfolio .image-size {
+    height: 200px;
+    width: 200px;
+}
+
+/* skill */
+
+.skill {
+    height: 1400px;
+}
+
+.skill h1 {
+    font-size: 20px;
+    padding-top: 50px;
+    text-align: center;
+    font-family: Sarabun;
+}
+
+.skill .tabel-skill {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.skill .card {
+    height: 400px;
+}
+
+.skill img {
+    height: 50px;
+    width: 50px;
+}
+
+.skill p {
+    margin-top: 15px;
+}
+
+/* call me here */
+
+.call-me {
+    text-align: center;
+    height: 450px;
+    background-color: #333333;
+    padding-top: 45px;
+}
+
+.call-me .judul-isi-call-me {
+    font-size: 50px;
+    font-family: Sarabun;
+    color: rgb(192, 189, 189);
+}
+
+.call-me .isi-call-me {
+    font-size: 18px;
+    color: #eaeaea;
+    margin-bottom: 30px;
+}
+
+.call-me .tombol {
+    border: 2px solid #1c26be;
+    padding: 10px;
+    border-radius: 10px;
+    color: #eaeaea;
+}
+
+.call-me .tombol:hover {
+    text-decoration: none;
+    color: #1c26be;
+    background-color: #eaeaea;
+    border: #eaeaea;
+    cursor: pointer;
+}
+
+@media (min-width: 992px) {
+
+    .jumbotron .display-4 {
+        margin-right: 150px;
+    }
+
+    .introduction {
+        height: 550px;
+    }
+
+    .introduction h1 {
+        font-size: 50px;
+        margin-top: 210px;
+    }
+
+    .introduction p {
+        margin-top: 150px;
+        font-size: 16px;
+    }
+
+    .judul-subbab {
+        font-size: 50px;
+    }
+
+    .done-so-far h5 {
+        font-size: 30px;
+    }
+
+    .done-so-far p {
+        font-size: 15px;
+    }
+
+    .portfolio h5 {
+        font-size: 30px;
+    }
+
+    .portfolio p {
+        font-size: 15px;
+    }
+
+    .done-so-far {
+        height: 660px;
+    }
+
+    .portfolio {
+        height: 660px;
+    }
+
+    .skill {
+        height: 650px;
+    }
+
+    .skill h1 {
+        font-size: 30px;
+    }
+
+}

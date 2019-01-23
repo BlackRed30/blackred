@@ -3,11 +3,30 @@
     color: #912f2f;
 }
 
+/* Akhir Navbar Sementara */
+
+/* penambahan di animated */
+
+.animasi,
+.animasi-2,
+.animasi-3,
+.animasi-4 {
+    opacity: 0;
+    transition: 1s;
+}
+
+.animasi.animated,
+.animasi-2.animated,
+.animasi-3.animated,
+.animasi-4.animated {
+    opacity: 1;
+}
+
 /* Jumbotron */
 
 .jumbotron {
     height: 650px;
-    background-image: url(jumbotron.png);
+    background-image: url(img/jumbotron.png);
     background-size: cover;
     background-attachment: fixed;
     text-align: center;
@@ -197,6 +216,10 @@
 
 @media (min-width: 992px) {
 
+    .jumbotron {
+        margin-top: -75px;
+    }
+
     .jumbotron .display-4 {
         margin-right: 150px;
     }
@@ -248,7 +271,7 @@
     }
 
     .skill h1 {
-        font-size: 30px;
+        font-size: 50px;
     }
 
 }

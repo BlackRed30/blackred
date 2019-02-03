@@ -26,7 +26,7 @@
 
 .jumbotron {
     height: 650px;
-    background-image: url(img/jumbotron.png);
+    background-image: url(jumbotron.png);
     background-size: cover;
     background-attachment: fixed;
     text-align: center;

@@ -26,7 +26,7 @@
 
 .jumbotron {
     height: 650px;
-    background-image: url(jumbotron.png);
+    background-image: url(img/jumbotron.png);
     background-size: cover;
     background-attachment: fixed;
     text-align: center;
@@ -43,7 +43,7 @@
 
 .jumbotron .myname {
     margin-top: 10px;
-    font-size: 60px;
+    font-size: 80px;
 }
 
 .jumbotron .sub-myname {
@@ -102,7 +102,7 @@
 
 .done-so-far {
     padding-top: 50px;
-    height: 980px;
+    height: 1200px;
 }
 
 .judul-subbab {
@@ -117,10 +117,14 @@
 
 .done-so-far h5 {
     font-size: 20px;
-    margin-top: 25px;
 }
 
 .done-so-far .image-size {
+    height: 200px;
+    width: 200px;
+}
+
+.done-so-far .image-size-akamigas {
     height: 200px;
     width: 200px;
 }
@@ -130,7 +134,7 @@
 .portfolio {
     padding-top: 50px;
     background-color: #cecece;
-    height: 980px;
+    height: 1200px;
 }
 
 .portfolio p {
@@ -139,7 +143,6 @@
 
 .portfolio h5 {
     font-size: 20px;
-    margin-top: 25px;
 }
 
 .portfolio .image-size {
@@ -150,32 +153,15 @@
 /* skill */
 
 .skill {
-    height: 1400px;
+    height: 650px;
+    position: relative;
 }
 
 .skill h1 {
-    font-size: 20px;
-    padding-top: 50px;
-    text-align: center;
+    font-size: 50px;
+    padding-top: 100px;
     font-family: Sarabun;
-}
-
-.skill .tabel-skill {
     text-align: center;
-    padding-top: 30px;
-}
-
-.skill .card {
-    height: 400px;
-}
-
-.skill img {
-    height: 50px;
-    width: 50px;
-}
-
-.skill p {
-    margin-top: 15px;
 }
 
 /* call me here */
@@ -210,7 +196,7 @@
     text-decoration: none;
     color: #1c26be;
     background-color: #eaeaea;
-    border: #eaeaea;
+    border: #7a6a6a;
     cursor: pointer;
 }
 
@@ -234,7 +220,7 @@
     }
 
     .introduction p {
-        margin-top: 150px;
+        margin-top: 200px;
         font-size: 16px;
     }
 
@@ -263,15 +249,36 @@
     }
 
     .portfolio {
-        height: 660px;
+        height: 860px;
     }
 
     .skill {
         height: 650px;
+        position: relative;
     }
 
     .skill h1 {
-        font-size: 50px;
+        font-size: 100px;
+        position: absolute;
+        font-family: Sarabun;
     }
 
+    /* Mengatur Teks Skill dan Tools */
+
+    .skill .baris-satu {
+        left: 220px;
+        top: 95px;
+    }
+
+    .skill .baris-dua {
+        left: 475px;
+        top: 150px;
+    }
+
+    .skill .baris-tiga {
+        left: 580px;
+        top: 225px;
+    }
+
+    /* Penutup Teks Skill dan Tools */
 }

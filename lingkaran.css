@@ -1,0 +1,372 @@
+@media (min-width: 992px) {
+
+    /* Lingkaran Web Programming */
+
+    /* Mengatur Lingkaran */
+
+    .skill .lingkaran-web {
+        height: 120px;
+        width: 120px;
+        border-radius: 50%;
+        position: absolute;
+        left: 290px;
+        top: 100px;
+        background-color: #1c26be;
+        z-index: 1;
+    }
+
+    .skill .lingkaran-container-web {
+        width: 70%;
+        height: 70%;
+        max-width: 70%;
+        max-width: 70%;
+        position: relative;
+        /* border: 1px solid green; */
+        top: 15%;
+        left: 15%;
+    }
+
+    .skill .text-lingkaran-web {
+        font-size: 15px;
+        position: absolute;
+        text-align: center;
+        top: 15%;
+        left: -5%;
+        transform: rotateY(-50%);
+        color: #eaeaea;
+        font-weight: bold;
+    }
+
+    /* Penutup Pengatur Lingkaran */
+
+    /* Pengatur Lingkaran tekan */
+
+    .skill .atur-tekan-web {
+        position: absolute;
+        width: 35%;
+        height: 15%;
+        top: 10px;
+        left: 400px;
+        text-decoration: none;
+    }
+
+    .skill .lingkaran-tekan-1-web {
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        position: absolute;
+        background-color: green;
+        top: 50px;
+        left: 105px;
+        z-index: 1;
+    }
+
+    .skill .text-lingkaran-tekan-1-web {
+        font-size: 15px;
+        position: absolute;
+        text-align: center;
+        top: 30%;
+        left: 25%;
+        transform: rotateY(-50%);
+        color: #eaeaea;
+        font-weight: bold;
+    }
+
+    .skill .lingkaran-tekan-2-web {
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        position: absolute;
+        top: 100px;
+        left: 20px;
+        background-color: blue;
+        z-index: 1;
+    }
+
+    .skill .text-lingkaran-tekan-2-web {
+        font-size: 15px;
+        position: absolute;
+        text-align: center;
+        top: 35%;
+        left: 15%;
+        transform: rotateY(-50%);
+        color: #eaeaea;
+        font-weight: bold;
+    }
+
+    .skill .lingkaran-tekan-3-web {
+        height: 90px;
+        width: 90px;
+        border-radius: 50%;
+        position: absolute;
+        background-color: salmon;
+        z-index: 1;
+    }
+
+    .skill .text-lingkaran-tekan-3-web {
+        font-size: 15px;
+        position: absolute;
+        text-align: center;
+        top: 35%;
+        left: 10%;
+        transform: rotateY(-50%);
+        color: #eaeaea;
+        font-weight: bold;
+    }
+
+    .skill .lingkaran-tekan-container {
+        width: 70%;
+        height: 70%;
+        max-width: 70%;
+        max-width: 70%;
+        position: relative;
+        /* border: 1px solid green; */
+        top: 15%;
+        left: 15%;
+    }
+
+    /* Penutup Pengatur Lingkaran Tekan */
+
+    /* Penutup Lingkaran Web */
+
+
+
+    /* Lingkaran Logistic Engineering */
+
+    /* Mengatur Lingkaran */
+
+    .skill .lingkaran-logistic {
+        height: 120px;
+        width: 120px;
+        border-radius: 50%;
+        position: absolute;
+        left: 250px;
+        top: 350px;
+        background-color: #7cc7b0;
+        z-index: 2;
+    }
+
+    .skill .lingkaran-container-logistic {
+        width: 70%;
+        height: 70%;
+        max-width: 70%;
+        max-width: 70%;
+        position: relative;
+        /* border: 1px solid green; */
+        top: 15%;
+        left: 15%;
+    }
+
+    .skill .text-lingkaran-logistic {
+        font-size: 15px;
+        position: absolute;
+        text-align: center;
+        top: 15%;
+        left: -5%;
+        transform: rotateY(-50%);
+        color: #4e4c4c;
+        font-weight: bold;
+    }
+
+    /* Penutup Pengatur Lingkaran */
+
+    /* Pengatur Lingkaran tekan */
+
+    .skill .atur-tekan-logistic {
+        position: absolute;
+        width: 35%;
+        height: 15%;
+        top: 360px;
+        left: 80px;
+        text-decoration: none;
+    }
+
+    .skill .lingkaran-tekan-1-logistic {
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        position: absolute;
+        background-color: green;
+        top: 50px;
+        left: 10px;
+        z-index: 2;
+    }
+
+    .skill .text-lingkaran-tekan-1-logistic {
+        font-size: 15px;
+        position: absolute;
+        text-align: center;
+        top: 30%;
+        left: 25%;
+        transform: rotateY(-50%);
+        color: #eaeaea;
+        font-weight: bold;
+    }
+
+    .skill .lingkaran-tekan-2-logistic {
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        position: absolute;
+        top: 130px;
+        left: 10px;
+        background-color: blue;
+        z-index: 2;
+    }
+
+    .skill .text-lingkaran-tekan-2-logistic {
+        font-size: 15px;
+        position: absolute;
+        text-align: center;
+        top: 35%;
+        left: 15%;
+        transform: rotateY(-50%);
+        color: #eaeaea;
+        font-weight: bold;
+    }
+
+    .skill .lingkaran-tekan-3-logistic {
+        height: 90px;
+        width: 90px;
+        border-radius: 50%;
+        top: 90px;
+        left: 100px;
+        position: absolute;
+        background-color: salmon;
+        z-index: 2;
+    }
+
+    .skill .text-lingkaran-tekan-3-logistic {
+        font-size: 15px;
+        position: absolute;
+        text-align: center;
+        top: 35%;
+        left: 10%;
+        transform: rotateY(-50%);
+        color: #eaeaea;
+        font-weight: bold;
+    }
+
+    /* Penutup Pengatur Lingkaran Tekan */
+
+    /* Penutup Lingkaran Logistic */
+
+    /* Lingkaran Tools */
+
+    /* Mengatur Lingkaran */
+
+    .skill .lingkaran-tools {
+        height: 120px;
+        width: 120px;
+        border-radius: 50%;
+        position: absolute;
+        left: 750px;
+        top: 200px;
+        background-color: #1c26be;
+        z-index: 1;
+    }
+
+    .skill .lingkaran-container-tools {
+        width: 70%;
+        height: 70%;
+        max-width: 70%;
+        max-width: 70%;
+        position: relative;
+        /* border: 1px solid green; */
+        top: 15%;
+        left: 15%;
+    }
+
+    .skill .text-lingkaran-tools {
+        font-size: 15px;
+        position: absolute;
+        text-align: center;
+        top: 15%;
+        left: -5%;
+        transform: rotateY(-50%);
+        color: #eaeaea;
+        font-weight: bold;
+    }
+
+    /* Penutup Pengatur Lingkaran */
+
+    /* Pengatur Lingkaran tekan */
+
+    .skill .atur-tekan-tools {
+        position: absolute;
+        width: 35%;
+        height: 15%;
+        top: 70px;
+        left: 580px;
+        text-decoration: none;
+    }
+
+    .skill .lingkaran-tekan-1-tools {
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        position: absolute;
+        background-color: green;
+        top: 30px;
+        left: 90px;
+        z-index: 3;
+    }
+
+    .skill .text-lingkaran-tekan-1-tools {
+        font-size: 15px;
+        position: absolute;
+        text-align: center;
+        top: 30%;
+        left: 25%;
+        transform: rotateY(-50%);
+        color: #eaeaea;
+        font-weight: bold;
+    }
+
+    .skill .lingkaran-tekan-2-tools {
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        position: absolute;
+        top: 100px;
+        left: 100px;
+        background-color: blue;
+        z-index: 3;
+    }
+
+    .skill .text-lingkaran-tekan-2-tools {
+        font-size: 15px;
+        position: absolute;
+        text-align: center;
+        top: 35%;
+        left: 15%;
+        transform: rotateY(-50%);
+        color: #eaeaea;
+        font-weight: bold;
+    }
+
+    .skill .lingkaran-tekan-3-tools {
+        height: 90px;
+        width: 90px;
+        border-radius: 50%;
+        position: absolute;
+        background-color: salmon;
+        z-index: 3;
+    }
+
+    .skill .text-lingkaran-tekan-3-tools {
+        font-size: 15px;
+        position: absolute;
+        text-align: center;
+        top: 35%;
+        left: 10%;
+        transform: rotateY(-50%);
+        color: #eaeaea;
+        font-weight: bold;
+    }
+
+    /* Penutup Pengatur Lingkaran Tekan */
+
+    /* Penutup Lingkaran Tools */
+
+}

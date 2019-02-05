@@ -176,8 +176,8 @@
         position: absolute;
         width: 35%;
         height: 15%;
-        top: 360px;
-        left: 80px;
+        top: 350px;
+        left: 160px;
         text-decoration: none;
     }
 
@@ -219,29 +219,7 @@
         position: absolute;
         text-align: center;
         top: 35%;
-        left: 15%;
-        transform: rotateY(-50%);
-        color: #eaeaea;
-        font-weight: bold;
-    }
-
-    .skill .lingkaran-tekan-3-logistic {
-        height: 90px;
-        width: 90px;
-        border-radius: 50%;
-        top: 90px;
-        left: 100px;
-        position: absolute;
-        background-color: salmon;
-        z-index: 2;
-    }
-
-    .skill .text-lingkaran-tekan-3-logistic {
-        font-size: 15px;
-        position: absolute;
-        text-align: center;
-        top: 35%;
-        left: 10%;
+        left: 25%;
         transform: rotateY(-50%);
         color: #eaeaea;
         font-weight: bold;
@@ -281,8 +259,8 @@
         font-size: 15px;
         position: absolute;
         text-align: center;
-        top: 15%;
-        left: -5%;
+        top: 20%;
+        left: 5%;
         transform: rotateY(-50%);
         color: #eaeaea;
         font-weight: bold;
@@ -317,7 +295,7 @@
         position: absolute;
         text-align: center;
         top: 30%;
-        left: 25%;
+        left: 5%;
         transform: rotateY(-50%);
         color: #eaeaea;
         font-weight: bold;
@@ -338,8 +316,8 @@
         font-size: 15px;
         position: absolute;
         text-align: center;
-        top: 35%;
-        left: 15%;
+        top: 20%;
+        left: 12%;
         transform: rotateY(-50%);
         color: #eaeaea;
         font-weight: bold;
@@ -359,7 +337,7 @@
         position: absolute;
         text-align: center;
         top: 35%;
-        left: 10%;
+        left: 20%;
         transform: rotateY(-50%);
         color: #eaeaea;
         font-weight: bold;

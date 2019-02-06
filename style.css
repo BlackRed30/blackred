@@ -158,11 +158,32 @@
 }
 
 .skill h1 {
-    font-size: 50px;
+    font-size: 65px;
     padding-top: 100px;
     font-family: Sarabun;
-    text-align: center;
 }
+
+/* Mengatur Teks Skill dan Tools */
+
+.skill .baris-satu {
+    position: absolute;
+    left: 5px;
+    top: 95px;
+}
+
+.skill .baris-dua {
+    position: absolute;
+    left: 25px;
+    top: 160px;
+}
+
+.skill .baris-tiga {
+    position: absolute;
+    left: 55px;
+    top: 220px;
+}
+
+/* Penutup Teks Skill dan Tools */
 
 /* call me here */
 
